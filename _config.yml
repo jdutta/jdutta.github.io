@@ -1,0 +1,12 @@
+markdown: rdiscount
+pygments: true
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
+
+name: Joy Dutta
+url: http://jdutta.github.io
+description: Too many projects, too little time.
+twitter: jdutta78
+github: jdutta
+gravatar_url: http://gravatar.com/avatar/00f59e9f0fa7c8dbcb53b6396ef922b1
