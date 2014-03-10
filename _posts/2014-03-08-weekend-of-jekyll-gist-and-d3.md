@@ -18,6 +18,9 @@ is to use a github page for the d3viz repository, but then it would mean copying
 orphan gh-pages branch. I was
 almost going that way when I found what Mike Bostock's [bl.ocks.org](http://bl.ocks.org/) offers. It is
 a convenient mechanism to host an index.html, complete with code highlighting, by putting it in a gist
-in github. I am giving it a shot. The demo links are available in the [d3viz wiki](https://github.com/jdutta/d3viz/wiki).
+in github. For example, [https://gist.github.com/jdutta/9458987](https://gist.github.com/jdutta/9458987)
+becomes live on [http://bl.ocks.org/jdutta/9458987](http://bl.ocks.org/jdutta/9458987), just like magic.
+
+The demo links are available in the [d3viz wiki](https://github.com/jdutta/d3viz/wiki).
 
 
