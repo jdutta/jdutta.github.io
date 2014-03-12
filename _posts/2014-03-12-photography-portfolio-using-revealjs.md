@@ -22,7 +22,7 @@ at once in github pages. In my view there is no better way to showcase projects.
 
 Although I considered jekyll to power my photoblog, the simplicity and interactivity of revealjs
 made it a no-brainer choice. The yeoman generator for revealjs is great to start the scaffolding.
-To manage the source and dist and avoid switching between `master` and `gh-pages` branch I the
+To manage the source and dist and avoid switching between `master` and `gh-pages` branch I did the
 following trick:
 
 * Local folder `photography` is the clone of `photography` repo in github.
