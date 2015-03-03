@@ -43,5 +43,5 @@ but then I had to override this style so that the whole image is visible all the
     background-size: contain;
 }
 ```
-Note: The photo portfolio is not final/official yet. Will have to find a way to link it from
-joyduttaphoto.com.
+
+Note: The photo portfolio is not final/official yet.
