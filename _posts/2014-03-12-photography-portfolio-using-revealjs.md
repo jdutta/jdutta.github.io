@@ -23,17 +23,6 @@ at once in github pages. In my view there is no better way to showcase projects.
 Although I considered jekyll to power my photoblog, the simplicity and interactivity of revealjs
 made it a no-brainer choice. The yeoman generator for revealjs is very useful as it lets me
 create separate slide files and change their order in a json list.
-To manage the source and dist and avoid switching between `master` and `gh-pages` branch I did the
-following trick:
-
-* Local folder `photography` is the clone of [photography](https://github.com/jdutta/photography) repo.
-* Local folder `photography-dist/photography` is the clone of same repo, but with only `gh-pages` 
-branch. The `master` branch is removed.
-* Make source changes in `photography`, like adding/changing slides, then `grunt dist` to generate
-static content in `photography/dist`.
-* Do an rsync to copy the changed static files. `rsync -avz dist/ ../photography-dist/photography/`.
-* Go to `photography-dist/photography` to commit the changes and push to github.
-* [http://jdutta.github.io/photography](http://jdutta.github.io/photography) will have new content.
 
 Experimented with *IMG* tag vs background images to showcase large images. I prefer background image
 but then I had to override this style so that the whole image is visible all the time:
