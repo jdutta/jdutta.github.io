@@ -1,12 +1,22 @@
-markdown: kramdown
-highlighter: rouge
-permalink: /posts/:title
-rdiscount:
-  extensions: [smart]
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-name: Joy Dutta
-url: http://jdutta.github.io
-description: Too many projects, too little time.
-twitter: jdutta78
-github: jdutta
-gravatar_url: http://gravatar.com/avatar/00f59e9f0fa7c8dbcb53b6396ef922b1
+# Setup
+title:               'Too many projects, too little time'
+tagline:             ''
+description:         ''
+url:                 http://jdutta.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Joy Dutta
+  url:               ''
+  email:             therider AT gmail
+
+# Custom vars
+version:             1.0.0
